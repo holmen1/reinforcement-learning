@@ -1,5 +1,6 @@
 # reinforcement-learning
 a computational approach to understanding and automating goal-directed learning and decision making
+![error](https://github.com/holmen1/reinforcement-learning/blob/master/RL.JPG)
 
 
 * bandits
