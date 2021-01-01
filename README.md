@@ -21,6 +21,8 @@ https://courses.edx.org/courses/course-v1:Microsoft+DAT257x+3T2019/course/
 
     value iteration
 
+    sarsa agent
+
 
 **References**
 Reinforcement learning: an introduction (second edition)
