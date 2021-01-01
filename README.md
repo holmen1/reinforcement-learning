@@ -14,6 +14,7 @@ https://courses.edx.org/courses/course-v1:Microsoft+DAT257x+3T2019/course/
 * gridworld
 
     random agent
+    policy evaluation
 
 
 
