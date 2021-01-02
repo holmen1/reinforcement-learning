@@ -14,8 +14,7 @@
 
 * linear function approximation
 
-
-
+* deep q-learning
 
 
 
