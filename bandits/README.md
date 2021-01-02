@@ -1,5 +1,8 @@
 # bandits
 
+From Microsoft: DAT257x Reinforcement Learning Explained (archived)
+https://courses.edx.org/courses/course-v1:Microsoft+DAT257x+3T2019/course/
+
 
 
 * epsilon-greedy
