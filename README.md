@@ -13,15 +13,7 @@ https://courses.edx.org/courses/course-v1:Microsoft+DAT257x+3T2019/course/
 
 * gridworld
 
-    random agent
-
-    policy evaluation
-
-    policy iteration
-
-    value iteration
-
-    sarsa agent
+    Learning an agent to navigate with SARSA, Q-learning, linear function approximation and deep Q-learning
 
 
 **References**
