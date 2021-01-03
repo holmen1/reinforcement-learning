@@ -7,25 +7,31 @@ https://courses.edx.org/courses/course-v1:Microsoft+DAT257x+3T2019/course/
 
 * policy evaluation (MDP)
 
-    V(s) <-  &Sigma;&pi;(a|s) &Sigma; p(s',r|s,a) (reward + &gamma; V(s'))
+    V(s) <-  &Sigma; &pi;(a|s) &Sigma; p(s',r|s,a) (r + &gamma; V(s'))
 
 * policy iteration (MDP)
 
+    V(s) <-  &Sigma; p(s',r|s,&pi;(s)) (r + &gamma; V(s'))
+
+    &pi;(s) <- argmax<sub>a</sub> &Sigma; p(s',r|s,a) (r + &gamma; V(s'))
+
 * value iteration (MDP)
+
+    V(s) <- max<sub>a</sub> &Sigma; p(s',r|s,a) (r + &gamma; V(s'))
 
 * sarsa agent
 
-    Q(s,a) <- Q(s,a) + alpha * (reward + gamma * Q(s',a') - Q(s,a))
+    Q(s,a) <- Q(s,a) + &alpha; (r + &gamma; Q(s',a') - Q(s,a))
 
 * q-learning agent
 
-    Q(s,a) <- Q(s,a) + alpha * (reward + gamma * max[Q(s') - Q(s,a)]
+    Q(s,a) <- Q(s,a) + &alpha; (r + &gamma; max[Q(s') - Q(s,a)]
 
 * linear function approximation
 
-    theta <- theta + alpha * (reward + gamma * (max[Q(s') - Q(s,a)])) * f(s,a)
+    &theta; <- &theta; + &alpha; (r + &gamma; (max[Q(s') - Q(s,a)])) * f(s,a)
 
-    Q(s,a) = theta * f(s,a)
+    Q(s,a) = &theta; f(s,a)
 
 * deep q-learning
 
