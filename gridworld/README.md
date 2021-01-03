@@ -5,17 +5,27 @@ https://courses.edx.org/courses/course-v1:Microsoft+DAT257x+3T2019/course/
 
 * random agent
 
-* policy evaluation
+* policy evaluation (MDP)
 
-* policy iteration
+    V(s) <-  &Sigma;&pi;(a|s) &Sigma; p(s',r|s,a) (reward + &gamma; V(s'))
 
-* value iteration
+* policy iteration (MDP)
+
+* value iteration (MDP)
 
 * sarsa agent
 
+    Q(s,a) <- Q(s,a) + alpha * (reward + gamma * Q(s',a') - Q(s,a))
+
 * q-learning agent
 
+    Q(s,a) <- Q(s,a) + alpha * (reward + gamma * max[Q(s') - Q(s,a)]
+
 * linear function approximation
+
+    theta <- theta + alpha * (reward + gamma * (max[Q(s') - Q(s,a)])) * f(s,a)
+
+    Q(s,a) = theta * f(s,a)
 
 * deep q-learning
 
